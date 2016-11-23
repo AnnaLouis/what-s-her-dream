@@ -1,0 +1,17 @@
+<div class="new">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <h1> Woman of the world, tell us what's your dream is...</h1>
+        <%= simple_form_for @dream, html: { class: "form-horizontal"} do |d| %>
+          <%= d.input :first_name, label: "What's your name ?"%>
+          <%= d.input :age, label: "How old are you ?" %>
+          <%= d.input :nationality, label: "Where do you come from ?" %>
+          <%= d.input :location, label: "Where did we meet ?" %>
+          <%= d.input :dream, label: "What's your dream ?" %>
+        <% end %>
+        <h2>...let's make it happen alltogether ! </h2>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,36 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+.banner {
+  color:white;
+  text-align:center;
+  height: 100vh;
+  background-image: url("landing.jpeg");
+  background-size: cover;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;;
+  color:rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  font-size: 70px;
+}
+
+.banner-btn {
+  font-size: 40px;
+  color: #07617D;
+  font-family: 'Lora', serif;
+}
+
+a:hover {
+  font-size: 45px;
+  color: #C4356C;
+  text-decoration: none;
+
+}
+
+
